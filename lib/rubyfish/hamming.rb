@@ -9,7 +9,7 @@ module RubyFish::Hamming
     	bs.downcase!
     end
 
-    short, long = [as, bs].sort
+    short, long = [as, bs].sort_by(&:length)
 
     long.chars.zip(short.chars).each {|ac, bc| distance += 1 if ac != bc }
 

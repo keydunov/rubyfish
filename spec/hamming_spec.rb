@@ -18,7 +18,8 @@ describe RubyFish::Hamming do
       ["toned2", "roses2", 3],
       ["1011101", "1001001", 2],
       ["2173896", "2233796", 3],
-      ["привет", "привед", 1]
+      ["привет", "привед", 1],
+      ["agg", "aaaactgacccaccccagg", 18]
     ])
   end
 
